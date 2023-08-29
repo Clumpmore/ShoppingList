@@ -51,7 +51,6 @@ override fun onEditingFinished() {
     }
 
     private fun setupRecyclerView(rvShopList: RecyclerView) {
-
         with(rvShopList) {
             shopListAdapter = ShopListAdapter()
             adapter = shopListAdapter
